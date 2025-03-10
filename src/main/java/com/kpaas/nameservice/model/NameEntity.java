@@ -14,7 +14,7 @@ import javax.persistence.*;
 public class NameEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public Long id;
+    public Long no;
 
     public String data1;
     public String data2;

@@ -14,7 +14,7 @@ public class NameService {
         this.nameRepository = nameRepository;
     }
 
-    public Optional<NameEntity> getNameById(Long id) {
+    public Optional<NameEntity> getNameByNo(Long id) {
         return nameRepository.findById(id);
     }
 }

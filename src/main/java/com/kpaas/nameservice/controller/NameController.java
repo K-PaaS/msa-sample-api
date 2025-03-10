@@ -14,7 +14,7 @@ public class NameController {
     }
     @GetMapping("/info")
     public NameEntity getName() {
-        NameEntity res = nameService.getNameById(1L).orElse(null);
+        NameEntity res = nameService.getNameByNo(1L).orElse(null);
         System.out.println("call to /info");
         return res;
     }
